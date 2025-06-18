@@ -1,9 +1,9 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import type { NextPage } from 'next';
+// import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <ConnectButton />
 
-        <h1 className={styles.title}>
+        {/* <h1 className={styles.title}>
           Welcome to <a href="https://www.rainbowkit.com">RainbowKit</a> +{' '}
           <a href="https://wagmi.sh">wagmi</a> +{' '}
           <a href="https://nextjs.org">Next.js!</a>
@@ -70,14 +70,14 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a href="https://rainbow.me" rel="noopener noreferrer" target="_blank">
           Made with ❤️ by your frens at 🌈
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 };
